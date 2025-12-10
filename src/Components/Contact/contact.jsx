@@ -17,7 +17,7 @@ const contact = () => {
             </div>
             <div className='coCont'>
                 <div className='coForm'>
-                    <h1 className='add'>Contact Me</h1>
+                    <h1 className='add'>Contact</h1>
                     <div className='line'></div>
                     <a href='mailto:ijadunolamuizz@gmail.com'>=ijadunolamuizz@gmail.com</a>
                     <h1 className='add'>09022667419</h1>
