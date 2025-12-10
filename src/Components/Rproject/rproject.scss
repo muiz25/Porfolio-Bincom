@@ -1,0 +1,105 @@
+.rProject{
+    .rProjContent{
+        right: 10%;
+        position: absolute;
+        h3{
+            text-align: center;
+            color: transparent;
+            background: linear-gradient(to right, #8753F3, #E7E4F0);
+            background-clip: text;
+            font-size: 30px;
+            text-decoration-line: underline;
+        }
+        .line{
+            width: 165px;
+            height: 8px;
+            background: linear-gradient(to right, #3A1D51, #8342B7);
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(2, 15, 29, 0.336);
+            margin: 5px 665px;
+        }
+        .rpBar{
+            justify-content: center;
+            background-color: transparent;
+            width: 450px;
+            height: 28px;
+            border-radius: 20px;
+            margin: 25px 500px;
+            .rpLst{
+                display: flex;
+                justify-content: space-between;
+                .rpItm{
+                    &:hover{
+                        text-align: center;
+                        background: #592D7B;
+                        width: 100px;
+                        height: 30px;
+                        border-radius: 20px;
+                        padding-top: 3px;
+                    }
+                    .rpLink{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .rpMain{
+            display: flex;
+            justify-content: space-between;
+            .rpTest{
+                margin-top: 30px;
+                .rpImg{
+                    width: 350px;
+                    height: 350px;
+                    margin: 40px opx;
+                    background: #F1E7F9;
+                    border-radius: 20px;
+                }
+                .rpTle{
+                    display: flex;
+                    margin: 15px 0px;
+                    width: 350px;
+                    height: 108px;
+                    background: #592D7B;
+                    border-radius: 15px 15px 1px 15px;
+                    justify-content: space-between;
+                    padding: 10px 20px;
+                    h5{
+                        color: transparent;
+                        background: linear-gradient(to right, #8753F3, #fff);
+                        background-clip: text;
+                    }
+                    .dte{
+                        position: absolute;
+                        text-align: right;
+                        margin-left: 240px;
+                    }
+                    h4{
+                        color: #fff;
+                        text-align: center;
+                        margin: 30px 0px;
+                        position: absolute;
+                    }
+                    p{
+                        color: #844CF4;
+                        position: absolute;
+                        margin-top: 68px;
+                        margin-left: 20px;
+                    }
+                    .ltn{
+                        position: absolute;
+                        margin-top: 70px;
+                        width: 12px;
+                        height: 16px;
+                        color: #A078F2;
+                    }
+                }
+            }
+        }
+    }
+    .bg{
+        background: #120f226e;
+        height: 400px;
+        margin-top: 300px;
+    }
+}

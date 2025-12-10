@@ -1,0 +1,31 @@
+.contact .coContent {
+  display: flex;
+}
+.contact .coContent .coGrid {
+  height: 650px;
+  width: 750px;
+  background: transparent;
+  display: block;
+  gap: 5px 5px;
+}
+.contact .coContent .coGrid .picf {
+  height: 320px;
+  width: 370px;
+}
+.contact .coContent .coCont {
+  align-content: center;
+  margin: auto;
+}
+.contact .coContent .coCont .coForm {
+  justify-content: space-evenly;
+}
+.contact .coContent .coCont .coForm h1 {
+  color: #fff;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.contact .coContent .coCont .coForm a {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+/*# sourceMappingURL=contact.css.map */

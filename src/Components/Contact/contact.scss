@@ -1,0 +1,34 @@
+.contact{
+    .coContent{
+        display: flex;
+        .coGrid{
+            height: 650px;
+            width: 750px;
+            background: transparent;
+            display: block;
+            gap: 5px 5px;
+            .picf{
+                height: 320px;
+                width: 370px;
+            }
+        }
+        .coCont{
+            //margin-top: 150px;
+            //margin-left: 350px;
+            align-content: center;
+            margin: auto;
+            .coForm{
+                justify-content: space-evenly;
+                h1{
+                    color: #fff;
+                    margin-bottom: 40px;
+                    margin-top: 40px;
+                }
+                a{
+                    font-size: 40px;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+}

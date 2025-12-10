@@ -1,0 +1,23 @@
+.clients {
+  background: rgba(18, 15, 34, 0.337254902);
+}
+.clients .clContent {
+  height: 422px;
+}
+.clients .clContent h3 {
+  text-align: center;
+  color: transparent;
+  background: linear-gradient(to right, #8753F3, #E7E4F0);
+  -webkit-background-clip: text;
+          background-clip: text;
+  font-size: 30px;
+  text-decoration-line: underline;
+}
+.clients .clContent .line {
+  width: 165px;
+  height: 8px;
+  background: linear-gradient(to right, #3A1D51, #8342B7);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(2, 15, 29, 0.336);
+  margin: 5px 665px;
+}/*# sourceMappingURL=client.css.map */

@@ -1,0 +1,42 @@
+.skills{
+    .skillContent{
+        height: 422px;
+        h3{
+            text-align: center;
+            color: transparent;
+            background: linear-gradient(to right, #8753F3, #E7E4F0);
+            background-clip: text;
+            font-size: 30px;
+            text-decoration-line: underline;
+        }
+        p{
+            color: #fff;
+            text-align: center;
+            margin-top: 8px;
+            font-weight: 600;
+        }
+        .skillDiv{
+            .skillList{
+                display: flex;
+                margin-top: 63px;
+                .skillItem{
+                    background: #592D7B;
+                    width: 150px;
+                    height: 150px;
+                    margin: auto;
+                    border-radius: 15px 15px 1px 15px;
+                    padding: 10px 10px;
+                    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
+                    text-align: center;
+                    &:hover{
+                        transform: scale(1.2);
+                    }
+                    h4{
+                        color: #fff;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
